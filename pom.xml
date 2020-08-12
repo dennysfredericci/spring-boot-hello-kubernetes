@@ -84,6 +84,9 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
+                    <image>
+                        <name>fredericci/${project.artifactId}:${project.version}</name>
+                    </image>
                     <layers>
                         <enabled>true</enabled>
                     </layers>

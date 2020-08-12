@@ -10,6 +10,6 @@ mvn clean package spring-boot:build-image
 #### Deploy on Kubernetes
 
 ```
-apply -f target/classes/META-INF/dekorate/kubernetes.yml
+kubectl apply -f target/classes/META-INF/dekorate/kubernetes.yml
 ```
 
